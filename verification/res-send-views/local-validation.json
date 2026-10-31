@@ -1,0 +1,28 @@
+{
+  "head": "fca6bf6b44be148981340301e6f5ec37c1ff849c",
+  "tree": "fa54ffe979307f2606644849941d6085fd07b037",
+  "node": "v24.14.0 windows/amd64",
+  "npm run lint": {
+    "exit": 0
+  },
+  "npm run test-ci": {
+    "exit": 0,
+    "passing": 1371
+  },
+  "newHTTPRegressionCases": 78,
+  "baseline": {
+    "pass": 18,
+    "fail": 60
+  },
+  "originalPatch": {
+    "pass": 78,
+    "fail": 0
+  },
+  "candidate": {
+    "pass": 78,
+    "fail": 0
+  },
+  "canonicalArchiveFiles": 217,
+  "allArchiveBlobBytesMatch": true,
+  "npmPackedFilesAllMatchSourceBlobs": true
+}

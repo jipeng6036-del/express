@@ -1,0 +1,310 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 78,
+    "passes": 18,
+    "pending": 0,
+    "failures": 60,
+    "start": "2026-10-31T15:21:14.573Z",
+    "end": "2026-10-31T15:21:14.764Z",
+    "duration": 191
+  },
+  "passed": [
+    {
+      "title": "res.send ArrayBuffer views sends empty DataView window with etag=false"
+    },
+    {
+      "title": "res.send ArrayBuffer views sends empty DataView window with etag=weak"
+    },
+    {
+      "title": "res.send ArrayBuffer views sends empty DataView window with etag=strong"
+    },
+    {
+      "title": "res.send ArrayBuffer views sends empty DataView window with chunked encoding and a custom type"
+    },
+    {
+      "title": "res.send ArrayBuffer views reports byte length without sending empty DataView window for HEAD"
+    },
+    {
+      "title": "res.send ArrayBuffer views revalidates empty DataView window using the raw-byte ETag"
+    },
+    {
+      "title": "res.send ArrayBuffer views sends Uint8Array control with etag=false"
+    },
+    {
+      "title": "res.send ArrayBuffer views sends Uint8Array control with etag=weak"
+    },
+    {
+      "title": "res.send ArrayBuffer views sends Uint8Array control with etag=strong"
+    },
+    {
+      "title": "res.send ArrayBuffer views sends Uint8Array control with chunked encoding and a custom type"
+    },
+    {
+      "title": "res.send ArrayBuffer views reports byte length without sending Uint8Array control for HEAD"
+    },
+    {
+      "title": "res.send ArrayBuffer views revalidates Uint8Array control using the raw-byte ETag"
+    },
+    {
+      "title": "res.send ArrayBuffer views sends Buffer window control with etag=false"
+    },
+    {
+      "title": "res.send ArrayBuffer views sends Buffer window control with etag=weak"
+    },
+    {
+      "title": "res.send ArrayBuffer views sends Buffer window control with etag=strong"
+    },
+    {
+      "title": "res.send ArrayBuffer views sends Buffer window control with chunked encoding and a custom type"
+    },
+    {
+      "title": "res.send ArrayBuffer views reports byte length without sending Buffer window control for HEAD"
+    },
+    {
+      "title": "res.send ArrayBuffer views revalidates Buffer window control using the raw-byte ETag"
+    }
+  ],
+  "failed": [
+    {
+      "title": "res.send ArrayBuffer views sends Uint16Array window with etag=false",
+      "message": "expected \"Content-Type\" of \"application/octet-stream\", got \"text/html; charset=utf-8\""
+    },
+    {
+      "title": "res.send ArrayBuffer views sends Uint16Array window with etag=weak",
+      "message": "expected \"Content-Length\" of \"4\", got \"2\""
+    },
+    {
+      "title": "res.send ArrayBuffer views sends Uint16Array window with etag=strong",
+      "message": "expected \"Content-Length\" of \"4\", got \"2\""
+    },
+    {
+      "title": "res.send ArrayBuffer views sends Uint16Array window with chunked encoding and a custom type",
+      "message": "Parse Error: Content-Length can't be present with Transfer-Encoding"
+    },
+    {
+      "title": "res.send ArrayBuffer views reports byte length without sending Uint16Array window for HEAD",
+      "message": "expected \"Content-Length\" of \"4\", got \"2\""
+    },
+    {
+      "title": "res.send ArrayBuffer views revalidates Uint16Array window using the raw-byte ETag",
+      "message": "expected 304 \"Not Modified\", got 200 \"OK\""
+    },
+    {
+      "title": "res.send ArrayBuffer views sends Int16Array window with etag=false",
+      "message": "expected \"Content-Type\" of \"application/octet-stream\", got \"text/html; charset=utf-8\""
+    },
+    {
+      "title": "res.send ArrayBuffer views sends Int16Array window with etag=weak",
+      "message": "expected \"Content-Length\" of \"4\", got \"2\""
+    },
+    {
+      "title": "res.send ArrayBuffer views sends Int16Array window with etag=strong",
+      "message": "expected \"Content-Length\" of \"4\", got \"2\""
+    },
+    {
+      "title": "res.send ArrayBuffer views sends Int16Array window with chunked encoding and a custom type",
+      "message": "Parse Error: Content-Length can't be present with Transfer-Encoding"
+    },
+    {
+      "title": "res.send ArrayBuffer views reports byte length without sending Int16Array window for HEAD",
+      "message": "expected \"Content-Length\" of \"4\", got \"2\""
+    },
+    {
+      "title": "res.send ArrayBuffer views revalidates Int16Array window using the raw-byte ETag",
+      "message": "expected 304 \"Not Modified\", got 200 \"OK\""
+    },
+    {
+      "title": "res.send ArrayBuffer views sends Uint32Array window with etag=false",
+      "message": "expected \"Content-Type\" of \"application/octet-stream\", got \"text/html; charset=utf-8\""
+    },
+    {
+      "title": "res.send ArrayBuffer views sends Uint32Array window with etag=weak",
+      "message": "expected \"Content-Length\" of \"4\", got \"1\""
+    },
+    {
+      "title": "res.send ArrayBuffer views sends Uint32Array window with etag=strong",
+      "message": "expected \"Content-Length\" of \"4\", got \"1\""
+    },
+    {
+      "title": "res.send ArrayBuffer views sends Uint32Array window with chunked encoding and a custom type",
+      "message": "Parse Error: Content-Length can't be present with Transfer-Encoding"
+    },
+    {
+      "title": "res.send ArrayBuffer views reports byte length without sending Uint32Array window for HEAD",
+      "message": "expected \"Content-Length\" of \"4\", got \"1\""
+    },
+    {
+      "title": "res.send ArrayBuffer views revalidates Uint32Array window using the raw-byte ETag",
+      "message": "expected 304 \"Not Modified\", got 200 \"OK\""
+    },
+    {
+      "title": "res.send ArrayBuffer views sends Float64Array window with etag=false",
+      "message": "expected \"Content-Type\" of \"application/octet-stream\", got \"text/html; charset=utf-8\""
+    },
+    {
+      "title": "res.send ArrayBuffer views sends Float64Array window with etag=weak",
+      "message": "expected \"Content-Length\" of \"16\", got \"2\""
+    },
+    {
+      "title": "res.send ArrayBuffer views sends Float64Array window with etag=strong",
+      "message": "expected \"Content-Length\" of \"16\", got \"2\""
+    },
+    {
+      "title": "res.send ArrayBuffer views sends Float64Array window with chunked encoding and a custom type",
+      "message": "Parse Error: Content-Length can't be present with Transfer-Encoding"
+    },
+    {
+      "title": "res.send ArrayBuffer views reports byte length without sending Float64Array window for HEAD",
+      "message": "expected \"Content-Length\" of \"16\", got \"2\""
+    },
+    {
+      "title": "res.send ArrayBuffer views revalidates Float64Array window using the raw-byte ETag",
+      "message": "expected 304 \"Not Modified\", got 200 \"OK\""
+    },
+    {
+      "title": "res.send ArrayBuffer views sends BigInt64Array window with etag=false",
+      "message": "expected \"Content-Type\" of \"application/octet-stream\", got \"text/html; charset=utf-8\""
+    },
+    {
+      "title": "res.send ArrayBuffer views sends BigInt64Array window with etag=weak",
+      "message": "expected \"Content-Type\" of \"application/octet-stream\", got \"text/html; charset=utf-8\""
+    },
+    {
+      "title": "res.send ArrayBuffer views sends BigInt64Array window with etag=strong",
+      "message": "expected \"Content-Type\" of \"application/octet-stream\", got \"text/html; charset=utf-8\""
+    },
+    {
+      "title": "res.send ArrayBuffer views sends BigInt64Array window with chunked encoding and a custom type",
+      "message": "Parse Error: Content-Length can't be present with Transfer-Encoding"
+    },
+    {
+      "title": "res.send ArrayBuffer views reports byte length without sending BigInt64Array window for HEAD",
+      "message": "expected \"Content-Length\" of \"16\", got \"1793\""
+    },
+    {
+      "title": "res.send ArrayBuffer views revalidates BigInt64Array window using the raw-byte ETag",
+      "message": "expected 304 \"Not Modified\", got 500 \"Internal Server Error\""
+    },
+    {
+      "title": "res.send ArrayBuffer views sends DataView window with etag=false",
+      "message": "expected \"Content-Length\" of \"3\", got \"0\""
+    },
+    {
+      "title": "res.send ArrayBuffer views sends DataView window with etag=weak",
+      "message": "expected \"Content-Length\" of \"3\", got \"0\""
+    },
+    {
+      "title": "res.send ArrayBuffer views sends DataView window with etag=strong",
+      "message": "expected \"Content-Length\" of \"3\", got \"0\""
+    },
+    {
+      "title": "res.send ArrayBuffer views sends DataView window with chunked encoding and a custom type",
+      "message": "Expected values to be strictly deep-equal:\n+ actual - expected\n\n+ Buffer(0) [Uint8Array] []\n- Buffer(3) [Uint8Array] [\n-   0,\n-   255,\n-   128\n- ]\n"
+    },
+    {
+      "title": "res.send ArrayBuffer views reports byte length without sending DataView window for HEAD",
+      "message": "expected \"Content-Length\" of \"3\", got \"0\""
+    },
+    {
+      "title": "res.send ArrayBuffer views revalidates DataView window using the raw-byte ETag",
+      "message": "expected 304 \"Not Modified\", got 200 \"OK\""
+    },
+    {
+      "title": "res.send ArrayBuffer views sends large Uint16Array with etag=false",
+      "message": "expected \"Content-Length\" of \"2002\", got \"1001\""
+    },
+    {
+      "title": "res.send ArrayBuffer views sends large Uint16Array with etag=weak",
+      "message": "expected \"Content-Length\" of \"2002\", got \"1001\""
+    },
+    {
+      "title": "res.send ArrayBuffer views sends large Uint16Array with etag=strong",
+      "message": "expected \"Content-Length\" of \"2002\", got \"1001\""
+    },
+    {
+      "title": "res.send ArrayBuffer views sends large Uint16Array with chunked encoding and a custom type",
+      "message": "Expected values to be strictly deep-equal:\n+ actual - expected\n\n+ Buffer(1001) [Uint8Array] [\n- Buffer(2002) [Uint8Array] [\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1,\n    2,\n-   1\n  ]\n"
+    },
+    {
+      "title": "res.send ArrayBuffer views reports byte length without sending large Uint16Array for HEAD",
+      "message": "expected \"Content-Length\" of \"2002\", got \"1001\""
+    },
+    {
+      "title": "res.send ArrayBuffer views revalidates large Uint16Array using the raw-byte ETag",
+      "message": "expected 304 \"Not Modified\", got 200 \"OK\""
+    },
+    {
+      "title": "res.send ArrayBuffer views sends cross-realm Uint16Array with etag=false",
+      "message": "expected \"Content-Type\" of \"application/octet-stream\", got \"text/html; charset=utf-8\""
+    },
+    {
+      "title": "res.send ArrayBuffer views sends cross-realm Uint16Array with etag=weak",
+      "message": "expected \"Content-Length\" of \"4\", got \"2\""
+    },
+    {
+      "title": "res.send ArrayBuffer views sends cross-realm Uint16Array with etag=strong",
+      "message": "expected \"Content-Length\" of \"4\", got \"2\""
+    },
+    {
+      "title": "res.send ArrayBuffer views sends cross-realm Uint16Array with chunked encoding and a custom type",
+      "message": "Parse Error: Content-Length can't be present with Transfer-Encoding"
+    },
+    {
+      "title": "res.send ArrayBuffer views reports byte length without sending cross-realm Uint16Array for HEAD",
+      "message": "expected \"Content-Length\" of \"4\", got \"2\""
+    },
+    {
+      "title": "res.send ArrayBuffer views revalidates cross-realm Uint16Array using the raw-byte ETag",
+      "message": "expected 304 \"Not Modified\", got 200 \"OK\""
+    },
+    {
+      "title": "res.send ArrayBuffer views sends cross-realm DataView with etag=false",
+      "message": "expected \"Content-Length\" of \"2\", got \"0\""
+    },
+    {
+      "title": "res.send ArrayBuffer views sends cross-realm DataView with etag=weak",
+      "message": "expected \"Content-Length\" of \"2\", got \"0\""
+    },
+    {
+      "title": "res.send ArrayBuffer views sends cross-realm DataView with etag=strong",
+      "message": "expected \"Content-Length\" of \"2\", got \"0\""
+    },
+    {
+      "title": "res.send ArrayBuffer views sends cross-realm DataView with chunked encoding and a custom type",
+      "message": "Expected values to be strictly deep-equal:\n+ actual - expected\n\n+ Buffer(0) [Uint8Array] []\n- Buffer(2) [Uint8Array] [\n-   0,\n-   255\n- ]\n"
+    },
+    {
+      "title": "res.send ArrayBuffer views reports byte length without sending cross-realm DataView for HEAD",
+      "message": "expected \"Content-Length\" of \"2\", got \"0\""
+    },
+    {
+      "title": "res.send ArrayBuffer views revalidates cross-realm DataView using the raw-byte ETag",
+      "message": "expected 304 \"Not Modified\", got 200 \"OK\""
+    },
+    {
+      "title": "res.send ArrayBuffer views sends shared-buffer Uint16Array with etag=false",
+      "message": "expected \"Content-Type\" of \"application/octet-stream\", got \"text/html; charset=utf-8\""
+    },
+    {
+      "title": "res.send ArrayBuffer views sends shared-buffer Uint16Array with etag=weak",
+      "message": "expected \"Content-Length\" of \"4\", got \"2\""
+    },
+    {
+      "title": "res.send ArrayBuffer views sends shared-buffer Uint16Array with etag=strong",
+      "message": "expected \"Content-Length\" of \"4\", got \"2\""
+    },
+    {
+      "title": "res.send ArrayBuffer views sends shared-buffer Uint16Array with chunked encoding and a custom type",
+      "message": "Parse Error: Content-Length can't be present with Transfer-Encoding"
+    },
+    {
+      "title": "res.send ArrayBuffer views reports byte length without sending shared-buffer Uint16Array for HEAD",
+      "message": "expected \"Content-Length\" of \"4\", got \"2\""
+    },
+    {
+      "title": "res.send ArrayBuffer views revalidates shared-buffer Uint16Array using the raw-byte ETag",
+      "message": "expected 304 \"Not Modified\", got 200 \"OK\""
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+[
+  {
+    "label": "baseline",
+    "head": "1c6f1b0fe4000977b9a7b4f34097e4d527dd9824",
+    "total": 40,
+    "passed": 15,
+    "failed": 25,
+    "packedFiles": [
+      {
+        "path": "LICENSE",
+        "blob": "aa927e44e31d486f807634887662efa39256bf84"
+      },
+      {
+        "path": "lib/application.js",
+        "blob": "310e6dfef21f3662f336baeb7c199cfa9235c47b"
+      },
+      {
+        "path": "lib/express.js",
+        "blob": "2d502eb54e4d7e2f2374494e32071d9416d56418"
+      },
+      {
+        "path": "index.js",
+        "blob": "d219b0c878dc6136eb2096cffa140bf6bf2b8e9c"
+      },
+      {
+        "path": "lib/request.js",
+        "blob": "c0506334ce2a7d67a7260034115659b0489cfd0b"
+      },
+      {
+        "path": "lib/response.js",
+        "blob": "0d5a4ae4d4d2145c252be353eaa0beb1c901cf3d"
+      },
+      {
+        "path": "lib/utils.js",
+        "blob": "4f21e7ef1e3d2ed8da18a9671f983b012e45198b"
+      },
+      {
+        "path": "lib/view.js",
+        "blob": "d66b4a2d89cda638ca1dcbba3da090e631175fc1"
+      },
+      {
+        "path": "package.json",
+        "blob": "a7fae5a21b005a1684e94eb09bb8156aaaa388ba"
+      },
+      {
+        "path": "Readme.md",
+        "blob": "393c992807c7be0343ff69619700384d6cf57346"
+      }
+    ],
+    "packedBlobBytesMatch": true,
+    "noNodePathOverride": true,
+    "packageInstallExit": 0
+  },
+  {
+    "label": "original-patch",
+    "head": "6040a5a6b46c657a7172657eb062ff0e908e14e7",
+    "total": 40,
+    "passed": 40,
+    "failed": 0,
+    "packedFiles": [
+      {
+        "path": "LICENSE",
+        "blob": "aa927e44e31d486f807634887662efa39256bf84"
+      },
+      {
+        "path": "lib/application.js",
+        "blob": "310e6dfef21f3662f336baeb7c199cfa9235c47b"
+      },
+      {
+        "path": "lib/express.js",
+        "blob": "2d502eb54e4d7e2f2374494e32071d9416d56418"
+      },
+      {
+        "path": "index.js",
+        "blob": "d219b0c878dc6136eb2096cffa140bf6bf2b8e9c"
+      },
+      {
+        "path": "lib/request.js",
+        "blob": "c0506334ce2a7d67a7260034115659b0489cfd0b"
+      },
+      {
+        "path": "lib/response.js",
+        "blob": "bd293717bb292c1e3e19ce21298c6c91f4c6fa09"
+      },
+      {
+        "path": "lib/utils.js",
+        "blob": "4f21e7ef1e3d2ed8da18a9671f983b012e45198b"
+      },
+      {
+        "path": "lib/view.js",
+        "blob": "d66b4a2d89cda638ca1dcbba3da090e631175fc1"
+      },
+      {
+        "path": "package.json",
+        "blob": "a7fae5a21b005a1684e94eb09bb8156aaaa388ba"
+      },
+      {
+        "path": "Readme.md",
+        "blob": "393c992807c7be0343ff69619700384d6cf57346"
+      }
+    ],
+    "packedBlobBytesMatch": true,
+    "noNodePathOverride": true,
+    "packageInstallExit": 0
+  },
+  {
+    "label": "candidate",
+    "head": "fca6bf6b44be148981340301e6f5ec37c1ff849c",
+    "total": 40,
+    "passed": 40,
+    "failed": 0,
+    "packedFiles": [
+      {
+        "path": "LICENSE",
+        "blob": "aa927e44e31d486f807634887662efa39256bf84"
+      },
+      {
+        "path": "lib/application.js",
+        "blob": "310e6dfef21f3662f336baeb7c199cfa9235c47b"
+      },
+      {
+        "path": "lib/express.js",
+        "blob": "2d502eb54e4d7e2f2374494e32071d9416d56418"
+      },
+      {
+        "path": "index.js",
+        "blob": "d219b0c878dc6136eb2096cffa140bf6bf2b8e9c"
+      },
+      {
+        "path": "lib/request.js",
+        "blob": "c0506334ce2a7d67a7260034115659b0489cfd0b"
+      },
+      {
+        "path": "lib/response.js",
+        "blob": "bd293717bb292c1e3e19ce21298c6c91f4c6fa09"
+      },
+      {
+        "path": "lib/utils.js",
+        "blob": "4f21e7ef1e3d2ed8da18a9671f983b012e45198b"
+      },
+      {
+        "path": "lib/view.js",
+        "blob": "d66b4a2d89cda638ca1dcbba3da090e631175fc1"
+      },
+      {
+        "path": "package.json",
+        "blob": "a7fae5a21b005a1684e94eb09bb8156aaaa388ba"
+      },
+      {
+        "path": "Readme.md",
+        "blob": "393c992807c7be0343ff69619700384d6cf57346"
+      }
+    ],
+    "packedBlobBytesMatch": true,
+    "noNodePathOverride": true,
+    "packageInstallExit": 0
+  }
+]

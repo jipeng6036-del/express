@@ -1,0 +1,249 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 78,
+    "passes": 78,
+    "pending": 0,
+    "failures": 0,
+    "start": "2026-10-31T15:21:15.473Z",
+    "end": "2026-10-31T15:21:15.619Z",
+    "duration": 146
+  },
+  "passed": [
+    {
+      "title": "res.send ArrayBuffer views sends Uint16Array window with etag=false"
+    },
+    {
+      "title": "res.send ArrayBuffer views sends Uint16Array window with etag=weak"
+    },
+    {
+      "title": "res.send ArrayBuffer views sends Uint16Array window with etag=strong"
+    },
+    {
+      "title": "res.send ArrayBuffer views sends Uint16Array window with chunked encoding and a custom type"
+    },
+    {
+      "title": "res.send ArrayBuffer views reports byte length without sending Uint16Array window for HEAD"
+    },
+    {
+      "title": "res.send ArrayBuffer views revalidates Uint16Array window using the raw-byte ETag"
+    },
+    {
+      "title": "res.send ArrayBuffer views sends Int16Array window with etag=false"
+    },
+    {
+      "title": "res.send ArrayBuffer views sends Int16Array window with etag=weak"
+    },
+    {
+      "title": "res.send ArrayBuffer views sends Int16Array window with etag=strong"
+    },
+    {
+      "title": "res.send ArrayBuffer views sends Int16Array window with chunked encoding and a custom type"
+    },
+    {
+      "title": "res.send ArrayBuffer views reports byte length without sending Int16Array window for HEAD"
+    },
+    {
+      "title": "res.send ArrayBuffer views revalidates Int16Array window using the raw-byte ETag"
+    },
+    {
+      "title": "res.send ArrayBuffer views sends Uint32Array window with etag=false"
+    },
+    {
+      "title": "res.send ArrayBuffer views sends Uint32Array window with etag=weak"
+    },
+    {
+      "title": "res.send ArrayBuffer views sends Uint32Array window with etag=strong"
+    },
+    {
+      "title": "res.send ArrayBuffer views sends Uint32Array window with chunked encoding and a custom type"
+    },
+    {
+      "title": "res.send ArrayBuffer views reports byte length without sending Uint32Array window for HEAD"
+    },
+    {
+      "title": "res.send ArrayBuffer views revalidates Uint32Array window using the raw-byte ETag"
+    },
+    {
+      "title": "res.send ArrayBuffer views sends Float64Array window with etag=false"
+    },
+    {
+      "title": "res.send ArrayBuffer views sends Float64Array window with etag=weak"
+    },
+    {
+      "title": "res.send ArrayBuffer views sends Float64Array window with etag=strong"
+    },
+    {
+      "title": "res.send ArrayBuffer views sends Float64Array window with chunked encoding and a custom type"
+    },
+    {
+      "title": "res.send ArrayBuffer views reports byte length without sending Float64Array window for HEAD"
+    },
+    {
+      "title": "res.send ArrayBuffer views revalidates Float64Array window using the raw-byte ETag"
+    },
+    {
+      "title": "res.send ArrayBuffer views sends BigInt64Array window with etag=false"
+    },
+    {
+      "title": "res.send ArrayBuffer views sends BigInt64Array window with etag=weak"
+    },
+    {
+      "title": "res.send ArrayBuffer views sends BigInt64Array window with etag=strong"
+    },
+    {
+      "title": "res.send ArrayBuffer views sends BigInt64Array window with chunked encoding and a custom type"
+    },
+    {
+      "title": "res.send ArrayBuffer views reports byte length without sending BigInt64Array window for HEAD"
+    },
+    {
+      "title": "res.send ArrayBuffer views revalidates BigInt64Array window using the raw-byte ETag"
+    },
+    {
+      "title": "res.send ArrayBuffer views sends DataView window with etag=false"
+    },
+    {
+      "title": "res.send ArrayBuffer views sends DataView window with etag=weak"
+    },
+    {
+      "title": "res.send ArrayBuffer views sends DataView window with etag=strong"
+    },
+    {
+      "title": "res.send ArrayBuffer views sends DataView window with chunked encoding and a custom type"
+    },
+    {
+      "title": "res.send ArrayBuffer views reports byte length without sending DataView window for HEAD"
+    },
+    {
+      "title": "res.send ArrayBuffer views revalidates DataView window using the raw-byte ETag"
+    },
+    {
+      "title": "res.send ArrayBuffer views sends empty DataView window with etag=false"
+    },
+    {
+      "title": "res.send ArrayBuffer views sends empty DataView window with etag=weak"
+    },
+    {
+      "title": "res.send ArrayBuffer views sends empty DataView window with etag=strong"
+    },
+    {
+      "title": "res.send ArrayBuffer views sends empty DataView window with chunked encoding and a custom type"
+    },
+    {
+      "title": "res.send ArrayBuffer views reports byte length without sending empty DataView window for HEAD"
+    },
+    {
+      "title": "res.send ArrayBuffer views revalidates empty DataView window using the raw-byte ETag"
+    },
+    {
+      "title": "res.send ArrayBuffer views sends large Uint16Array with etag=false"
+    },
+    {
+      "title": "res.send ArrayBuffer views sends large Uint16Array with etag=weak"
+    },
+    {
+      "title": "res.send ArrayBuffer views sends large Uint16Array with etag=strong"
+    },
+    {
+      "title": "res.send ArrayBuffer views sends large Uint16Array with chunked encoding and a custom type"
+    },
+    {
+      "title": "res.send ArrayBuffer views reports byte length without sending large Uint16Array for HEAD"
+    },
+    {
+      "title": "res.send ArrayBuffer views revalidates large Uint16Array using the raw-byte ETag"
+    },
+    {
+      "title": "res.send ArrayBuffer views sends cross-realm Uint16Array with etag=false"
+    },
+    {
+      "title": "res.send ArrayBuffer views sends cross-realm Uint16Array with etag=weak"
+    },
+    {
+      "title": "res.send ArrayBuffer views sends cross-realm Uint16Array with etag=strong"
+    },
+    {
+      "title": "res.send ArrayBuffer views sends cross-realm Uint16Array with chunked encoding and a custom type"
+    },
+    {
+      "title": "res.send ArrayBuffer views reports byte length without sending cross-realm Uint16Array for HEAD"
+    },
+    {
+      "title": "res.send ArrayBuffer views revalidates cross-realm Uint16Array using the raw-byte ETag"
+    },
+    {
+      "title": "res.send ArrayBuffer views sends cross-realm DataView with etag=false"
+    },
+    {
+      "title": "res.send ArrayBuffer views sends cross-realm DataView with etag=weak"
+    },
+    {
+      "title": "res.send ArrayBuffer views sends cross-realm DataView with etag=strong"
+    },
+    {
+      "title": "res.send ArrayBuffer views sends cross-realm DataView with chunked encoding and a custom type"
+    },
+    {
+      "title": "res.send ArrayBuffer views reports byte length without sending cross-realm DataView for HEAD"
+    },
+    {
+      "title": "res.send ArrayBuffer views revalidates cross-realm DataView using the raw-byte ETag"
+    },
+    {
+      "title": "res.send ArrayBuffer views sends shared-buffer Uint16Array with etag=false"
+    },
+    {
+      "title": "res.send ArrayBuffer views sends shared-buffer Uint16Array with etag=weak"
+    },
+    {
+      "title": "res.send ArrayBuffer views sends shared-buffer Uint16Array with etag=strong"
+    },
+    {
+      "title": "res.send ArrayBuffer views sends shared-buffer Uint16Array with chunked encoding and a custom type"
+    },
+    {
+      "title": "res.send ArrayBuffer views reports byte length without sending shared-buffer Uint16Array for HEAD"
+    },
+    {
+      "title": "res.send ArrayBuffer views revalidates shared-buffer Uint16Array using the raw-byte ETag"
+    },
+    {
+      "title": "res.send ArrayBuffer views sends Uint8Array control with etag=false"
+    },
+    {
+      "title": "res.send ArrayBuffer views sends Uint8Array control with etag=weak"
+    },
+    {
+      "title": "res.send ArrayBuffer views sends Uint8Array control with etag=strong"
+    },
+    {
+      "title": "res.send ArrayBuffer views sends Uint8Array control with chunked encoding and a custom type"
+    },
+    {
+      "title": "res.send ArrayBuffer views reports byte length without sending Uint8Array control for HEAD"
+    },
+    {
+      "title": "res.send ArrayBuffer views revalidates Uint8Array control using the raw-byte ETag"
+    },
+    {
+      "title": "res.send ArrayBuffer views sends Buffer window control with etag=false"
+    },
+    {
+      "title": "res.send ArrayBuffer views sends Buffer window control with etag=weak"
+    },
+    {
+      "title": "res.send ArrayBuffer views sends Buffer window control with etag=strong"
+    },
+    {
+      "title": "res.send ArrayBuffer views sends Buffer window control with chunked encoding and a custom type"
+    },
+    {
+      "title": "res.send ArrayBuffer views reports byte length without sending Buffer window control for HEAD"
+    },
+    {
+      "title": "res.send ArrayBuffer views revalidates Buffer window control using the raw-byte ETag"
+    }
+  ],
+  "failed": []
+}
